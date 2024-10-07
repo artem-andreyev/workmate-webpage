@@ -185,12 +185,43 @@ a {
     font-weight: 500;
     margin: 20px 0 10px;
 }
+.sidebar-activity a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #888;
+    margin: 3px 0;
+}
+
+.sidebar-activity a img{
+    width: 20px;
+    margin-right: 10px;
+}
+.discover-more-link{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -25px;
+}
+.discover-more-link a{
+    color: #045be6;
+    display: inline-block;
+    margin: 10px 0;
+}
 
 /* ------ right-sidebar -------- */
 .right-sidebar{
     flex-basis: 25%;
     align-self: flex-start;
 }
+.sidebar-news{
+    background: #fff;
+    padding: 10px 25px;
+}
+
+
 /* ------ main-content -------- */
 .main-content{
     flex-basis: 47%;
