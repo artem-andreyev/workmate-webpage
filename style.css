@@ -699,3 +699,33 @@ a {
     border-radius: 30px;
     font-weight: 500;
 }
+.profile-footer{
+    padding: 0 6% 30px;
+}
+.profile-footer .sidebar-useful-links{
+    text-align: left;
+    padding: 0;
+}
+.profile-footer .copyright-msg{
+    justify-content: flex-start;
+}
+
+/* -----------------------------media query for small screen */
+@media only screen and (max-width: 600px){
+    .search-box{
+        background: transparent;
+        width: auto;
+        padding: 0;
+    }
+    .search-box input{
+        width: 0;
+        padding: 0;
+    }
+    .navbar-center ul li a span{
+        display: none;
+    }
+    .navbar-center ul li a{
+        padding-right: 0;
+        margin: 5px;
+    }
+}
