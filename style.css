@@ -780,4 +780,7 @@ a {
     .sidebar-activity.open-activity{
         display: block;
     }
+    .sidebar-ad{
+        width: 404.22px;
+    }
 }
